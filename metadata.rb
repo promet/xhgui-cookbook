@@ -1,0 +1,12 @@
+name             'xhgui-cookbook'
+maintainer       'gregpalmier'
+maintainer_email 'gregpalmier@gmail.com'
+license          'All rights reserved'
+description      'Installs/Configures xhgui-cookbook'
+long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
+version          '0.2.0'
+depends          'apache2'
+depends          'apt'
+depends          'build-essential'
+depends          'git'
+depends          'php'

@@ -1,0 +1,6 @@
+# xhgui default Apache configuration
+Alias /xhgui <%= node[:apache][:docroot_dir] %>/xhgui
+<Directory <%= node[:apache][:docroot_dir] %>/xhgui>
+    Order deny,allow
+    Allow from all
+</Directory>
